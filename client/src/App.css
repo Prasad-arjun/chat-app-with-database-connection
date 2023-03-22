@@ -1,0 +1,54 @@
+/* Font google inter */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+/* Font abhaya */
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap');
+
+.interFont
+{
+  font-family: 'Inter', sans-serif;
+}
+
+.abhayaFont
+{
+  font-family: 'Abhaya Libre', serif;
+}
+
+#you {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#you .message-content1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#you .message-meta {
+  justify-content: flex-end;
+}
+
+#other {
+  justify-content: flex-start;
+}
+
+#other .message-content {
+  justify-content: flex-start;
+  align-items: center;
+  background-color: cornflowerblue;
+}
+
+#other .message-meta {
+  justify-content: flex-start;
+  margin-right: 5px;
+}
+
+.message-meta #author {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+
